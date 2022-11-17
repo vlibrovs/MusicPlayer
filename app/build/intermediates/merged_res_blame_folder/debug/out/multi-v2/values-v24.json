@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.vlibrovs.musicplayer.app-mergeDebugResources-60:/values-v24/values-v24.xml",
+            "outputFile": "com.vlibrovs.musicplayer.app-mergeDebugResources-63:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Vlad\\.gradle\\caches\\transforms-3\\1b06805550471f4a39c49ce01c25e92a\\transformed\\media-1.4.3\\res\\values-v24\\values-v24.xml",

@@ -8,6 +8,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">MusicPlayer</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
     <style name="Theme.MusicPlayer" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/purple_700</item>
     </style>

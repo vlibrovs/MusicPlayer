@@ -1,66 +1,150 @@
 [
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.vlibrovs.musicplayer.app-merged_res-65:/drawable_pause.xml.flat",
+        "source": "com.vlibrovs.musicplayer.app-main-67:/drawable/pause.xml"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\drawable_empty_track_image.xml.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\drawable\\empty_track_image.xml"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/xml_backup_rules.xml.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_bold_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_bold_italic.ttf"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_thin.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_thin.ttf"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_black_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_black_italic.ttf"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/xml_data_extraction_rules.xml.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_medium.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_medium.ttf"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_semibold_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_semibold_italic.ttf"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_thin_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_thin_italic.ttf"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-62:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-64:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_light.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_light_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_light_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_semibold.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_regular.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_extrabold.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_extrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_lobster_regular.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\lobster_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_black.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_black.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_meduim_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_meduim_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_extralight_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_extralight_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_extrabold_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_extrabold_italic.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_extralight.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_extralight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_bold.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_regular_italic.ttf.flat",
+        "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_regular_italic.ttf"
     }
 ]
