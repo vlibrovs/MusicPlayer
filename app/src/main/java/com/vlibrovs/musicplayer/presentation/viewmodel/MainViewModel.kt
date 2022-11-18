@@ -11,25 +11,29 @@ class MainViewModel : ViewModel() {
             name = "Stressed Out",
             authorName = "Twenty One Pilots",
             imageUrl = null,
-            musicUrl = ""
+            musicUrl = "",
+            secondsLong = 120
         ),
         Track(
             name = "Shape of You",
             authorName = "Ed Sheeran",
             imageUrl = null,
-            musicUrl = ""
+            musicUrl = "",
+            secondsLong = 120
         ),
         Track(
             name = "Believer",
             authorName = "Imagine Dragons",
             imageUrl = null,
-            musicUrl = ""
+            musicUrl = "",
+            secondsLong = 120
         ),
         Track(
             name = "Demons",
             authorName = "Imagine Dragons",
             imageUrl = null,
-            musicUrl = ""
+            musicUrl = "",
+            secondsLong = 120
         )
     )
 
@@ -38,14 +42,37 @@ class MainViewModel : ViewModel() {
     var bottomPlayerVisible by mutableStateOf(false)
         private set
 
-    var playingTrack by mutableStateOf<Track?>(null)
+    var playingTrack by mutableStateOf<Track?>(playlist[0])
         private set
 
-    var playingTrackNumber by mutableStateOf<Int?>(null)
+    var playingTrackNumber by mutableStateOf<Int?>(0)
         private set
 
     var musicPlaying by mutableStateOf(false)
         private set
+
+    var playerBarProgress by mutableStateOf(0f)
+        private set
+
+    val onPlayerBarProgressChange = { progress: Float ->
+        playerBarProgress = progress
+    }
+
+    fun shuffle() {
+        // TODO Implement
+    }
+
+    fun playPrevious() {
+        // TODO Implement
+    }
+
+    fun playNext() {
+        // TODO Implement
+    }
+
+    fun repeatOne() {
+        // TODO Implement
+    }
 
     fun resume() {
         musicPlaying = true

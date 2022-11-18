@@ -11,6 +11,10 @@ drawable empty_track_image
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable pause
+drawable replay
+drawable shuffle
+drawable skip_next
+drawable skip_previous
 font lobster_regular
 font poppins_black
 font poppins_black_italic
@@ -33,8 +37,14 @@ font poppins_thin_italic
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string collapse
+string menu
 string pause
 string play
+string play_next
+string play_previous
+string repeat
+string shuffle
 style Theme.MusicPlayer
 xml backup_rules
 xml data_extraction_rules

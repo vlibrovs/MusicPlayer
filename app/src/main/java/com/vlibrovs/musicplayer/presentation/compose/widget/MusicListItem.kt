@@ -37,21 +37,16 @@ fun MusicListItem(
             ).padding(10.dp) else this
         }
         .clickable(interactionSource = interactionSource, indication = null, onClick = onClick)) {
-        if (track.imageUrl != null) {
-            AsyncImage(
-                modifier = Modifier
-                    .size(80.dp)
-                    .background(
-                        shape = MaterialTheme.shapes.medium,
-                        color = MaterialTheme.colorScheme.secondary
-                    ), model = track.imageUrl, contentDescription = track.name
-            )
-        } else {
-            Image(
-                painter = painterResource(id = R.drawable.empty_track_image),
-                contentDescription = track.name
-            )
-        }
+        NullableAsyncImage(
+            modifier = Modifier
+                .size(80.dp)
+                .background(
+                    shape = MaterialTheme.shapes.medium,
+                    color = MaterialTheme.colorScheme.secondary
+                ),
+            url = track.imageUrl,
+            contentDescription = track.name
+        )
         Spacer(modifier = Modifier.width(30.dp))
         Column(
             modifier = Modifier.height(80.dp),
