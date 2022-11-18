@@ -20,6 +20,7 @@ import coil.compose.AsyncImage
 import com.vlibrovs.musicplayer.R
 import com.vlibrovs.musicplayer.data.model.Track
 import com.vlibrovs.musicplayer.presentation.compose.widget.MusicListItem
+import com.vlibrovs.musicplayer.presentation.compose.widget.NullableAsyncImage
 import com.vlibrovs.musicplayer.presentation.compose.widget.PlayPauseButton
 import com.vlibrovs.musicplayer.presentation.viewmodel.MainViewModel
 import com.vlibrovs.musicplayer.util.extension.rememberConstraintSet
@@ -79,19 +80,14 @@ fun MainScreen(viewModel: MainViewModel) {
                         .padding(10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    track.imageUrl?.let { url ->
-                        AsyncImage(
-                            modifier = Modifier
-                                .size(80.dp)
-                                .background(
-                                    shape = MaterialTheme.shapes.medium,
-                                    color = MaterialTheme.colorScheme.secondary
-                                ),
-                            model = url,
-                            contentDescription = track.name
-                        )
-                    } ?: Image(
-                        painter = painterResource(id = R.drawable.empty_track_image),
+                    NullableAsyncImage(
+                        modifier = Modifier
+                            .size(80.dp)
+                            .background(
+                                shape = MaterialTheme.shapes.medium,
+                                color = MaterialTheme.colorScheme.secondary
+                            ),
+                        url = track.imageUrl,
                         contentDescription = track.name
                     )
 

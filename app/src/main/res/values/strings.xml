@@ -2,4 +2,10 @@
     <string name="app_name">MusicPlayer</string>
     <string name="play">Play</string>
     <string name="pause">Pause</string>
+    <string name="collapse">Collapse</string>
+    <string name="menu">Menu</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="play_previous">Play previous track</string>
+    <string name="play_next">Play next track</string>
+    <string name="repeat">Repeat current track</string>
 </resources>

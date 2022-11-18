@@ -19,8 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="pause" />
-                            <entry key="sourceFile" value="D:\Images\andoid\MusicPlayer\pause.svg" />
+                            <entry key="outputName" value="empty_track_image" />
+                            <entry key="sourceFile" value="D:\Images\andoid\MusicPlayer\empty_track_image.svg" />
                           </map>
                         </option>
                       </PersistentState>
