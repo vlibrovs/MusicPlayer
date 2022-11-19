@@ -23,6 +23,7 @@ int anim btn_radio_to_on_mtrl_dot_group_animation 0x7f010015
 int anim btn_radio_to_on_mtrl_ring_outer_animation 0x7f010016
 int anim btn_radio_to_on_mtrl_ring_outer_path_animation 0x7f010017
 int anim fragment_fast_out_extra_slow_in 0x7f010018
+int anim track_screen_transition 0x7f010019
 int animator fragment_close_enter 0x7f020000
 int animator fragment_close_exit 0x7f020001
 int animator fragment_fade_enter 0x7f020002

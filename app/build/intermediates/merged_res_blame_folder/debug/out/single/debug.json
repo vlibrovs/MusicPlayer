@@ -24,10 +24,6 @@
         "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_thin.ttf"
     },
     {
-        "merged": "com.vlibrovs.musicplayer.app-merged_res-65:/drawable_empty_track_image.xml.flat",
-        "source": "com.vlibrovs.musicplayer.app-main-67:/drawable/empty_track_image.xml"
-    },
-    {
         "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_black_italic.ttf.flat",
         "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\poppins_black_italic.ttf"
     },
@@ -118,6 +114,10 @@
     {
         "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_lobster_regular.ttf.flat",
         "source": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-main-67:\\font\\lobster_regular.ttf"
+    },
+    {
+        "merged": "com.vlibrovs.musicplayer.app-merged_res-65:/anim_track_screen_transition.xml.flat",
+        "source": "com.vlibrovs.musicplayer.app-main-67:/anim/track_screen_transition.xml"
     },
     {
         "merged": "C:\\Users\\Vlad\\.gradle\\daemon\\7.4\\com.vlibrovs.musicplayer.app-merged_res-65:\\font_poppins_black.ttf.flat",
