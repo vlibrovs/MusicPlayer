@@ -1,8 +1,8 @@
 package com.vlibrovs.musicplayer.presentation.compose.screen
 
 import androidx.compose.animation.*
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CornerSize
@@ -11,22 +11,23 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.layoutId
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
-import coil.compose.AsyncImage
-import com.vlibrovs.musicplayer.R
-import com.vlibrovs.musicplayer.data.model.Track
+import androidx.navigation.NavController
 import com.vlibrovs.musicplayer.presentation.compose.widget.MusicListItem
 import com.vlibrovs.musicplayer.presentation.compose.widget.NullableAsyncImage
 import com.vlibrovs.musicplayer.presentation.compose.widget.PlayPauseButton
 import com.vlibrovs.musicplayer.presentation.viewmodel.MainViewModel
 import com.vlibrovs.musicplayer.util.extension.rememberConstraintSet
+import com.vlibrovs.musicplayer.util.values.ScreenRoutes
 
 @Composable
-fun MainScreen(viewModel: MainViewModel) {
+fun MainScreen(
+    viewModel: MainViewModel
+) {
     val constraintSet = rememberConstraintSet {
         val lazyColumn = createRefFor(id = "lazyColumn")
         val bottomPlayer = createRefFor(id = "bottomPlayer")
@@ -70,13 +71,18 @@ fun MainScreen(viewModel: MainViewModel) {
             viewModel.playingTrack?.let { track ->
                 Row(
                     modifier = Modifier
-                        .background(
-                            color = MaterialTheme.colorScheme.primaryContainer,
+                        .clip(
                             shape = MaterialTheme.shapes.medium.copy(
                                 bottomEnd = CornerSize(0),
                                 bottomStart = CornerSize(0)
                             )
                         )
+                        .background(
+                            color = MaterialTheme.colorScheme.primaryContainer
+                        )
+                        .clickable {
+                            viewModel.showTrackScreen()
+                        }
                         .padding(10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {

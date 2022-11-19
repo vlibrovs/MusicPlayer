@@ -37,15 +37,18 @@ class MainViewModel : ViewModel() {
         )
     )
 
+    var trackScreenVisible by mutableStateOf(false)
+        private set
+
     val playlist: Playlist get() = _playlist
 
     var bottomPlayerVisible by mutableStateOf(false)
         private set
 
-    var playingTrack by mutableStateOf<Track?>(playlist[0])
+    var playingTrack by mutableStateOf<Track?>(null)
         private set
 
-    var playingTrackNumber by mutableStateOf<Int?>(0)
+    var playingTrackNumber by mutableStateOf<Int?>(null)
         private set
 
     var musicPlaying by mutableStateOf(false)
@@ -56,6 +59,14 @@ class MainViewModel : ViewModel() {
 
     val onPlayerBarProgressChange = { progress: Float ->
         playerBarProgress = progress
+    }
+
+    fun showTrackScreen() {
+        trackScreenVisible = true
+    }
+
+    fun hideTrackScreen() {
+        trackScreenVisible = false
     }
 
     fun shuffle() {
@@ -85,6 +96,7 @@ class MainViewModel : ViewModel() {
     fun playTrackByIndex(index: Int) {
         playingTrackNumber = index
         playingTrack = playlist[index]
+        musicPlaying = true
         if (!bottomPlayerVisible) bottomPlayerVisible = true
     }
 }

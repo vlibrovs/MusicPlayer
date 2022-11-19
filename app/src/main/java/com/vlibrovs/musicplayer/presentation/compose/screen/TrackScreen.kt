@@ -18,12 +18,14 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
 import com.vlibrovs.musicplayer.presentation.viewmodel.MainViewModel
 import com.vlibrovs.musicplayer.R
 import com.vlibrovs.musicplayer.presentation.compose.widget.NullableAsyncImage
 import com.vlibrovs.musicplayer.presentation.compose.widget.PlayPauseButton
 import com.vlibrovs.musicplayer.presentation.compose.widget.PlayerBar
 import com.vlibrovs.musicplayer.presentation.compose.widget.PlayerBarColors
+import com.vlibrovs.musicplayer.util.values.ScreenRoutes
 import kotlin.math.roundToInt
 
 @Composable
@@ -43,7 +45,7 @@ fun TrackScreen(
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
                 IconButton(onClick = {
-
+                    viewModel.hideTrackScreen()
                 }) {
                     Icon(
                         modifier = Modifier.size(35.dp),
