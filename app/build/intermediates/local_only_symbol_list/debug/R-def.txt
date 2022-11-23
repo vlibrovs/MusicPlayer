@@ -1,6 +1,5 @@
 R_DEF: Internal format may change without notice
 local
-anim track_screen_transition
 color black
 color purple_200
 color purple_500
@@ -39,11 +38,18 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
 string collapse
+string default_web_client_id
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string menu
 string pause
 string play
 string play_next
 string play_previous
+string project_id
 string repeat
 string shuffle
 style Theme.MusicPlayer

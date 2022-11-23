@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.vlibrovs.musicplayer.app-mergeDebugResources-63:/values-v23/values-v23.xml",
+            "outputFile": "com.vlibrovs.musicplayer.app-mergeDebugResources-68:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Vlad\\.gradle\\caches\\transforms-3\\31b286d5e15484779c0865c183485305\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Vlad\\.gradle\\caches\\transforms-3\\2e38c5463b8fd5f60b718766e82abf86\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

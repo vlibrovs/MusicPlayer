@@ -1,6 +1,7 @@
 package com.vlibrovs.musicplayer.presentation.activity
 
 import android.os.Bundle
+import android.provider.MediaStore
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.vlibrovs.musicplayer.presentation.compose.screen.MainAndTrackScreenHost

@@ -1,6 +1,5 @@
 package com.vlibrovs.musicplayer.presentation.compose.widget
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -11,15 +10,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import coil.compose.AsyncImage
-import com.vlibrovs.musicplayer.R
-import com.vlibrovs.musicplayer.data.model.Track
+import com.vlibrovs.musicplayer.data.model.Song
 
 @Composable
 fun MusicListItem(
-    track: Track, isPlaying: Boolean,
+    song: Song,
+    isPlaying: Boolean,
     onClick: () -> Unit
 ) {
     val interactionSource = remember { MutableInteractionSource() }
@@ -44,8 +41,8 @@ fun MusicListItem(
                     shape = MaterialTheme.shapes.medium,
                     color = MaterialTheme.colorScheme.secondary
                 ),
-            url = track.imageUrl,
-            contentDescription = track.name
+            url = song.imageUrl,
+            contentDescription = song.title
         )
         Spacer(modifier = Modifier.width(30.dp))
         Column(
@@ -53,10 +50,10 @@ fun MusicListItem(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.Start
         ) {
-            Text(text = track.name,
+            Text(text = song.title,
                 style = MaterialTheme.typography.displayMedium,
                 color = MaterialTheme.colorScheme.run { if (isPlaying) primary else onBackground })
-            Text(text = track.authorName,
+            Text(text = song.artist,
                 style = MaterialTheme.typography.displaySmall,
                 color = MaterialTheme.colorScheme.run { if (isPlaying) onSurfaceVariant else secondary })
         }

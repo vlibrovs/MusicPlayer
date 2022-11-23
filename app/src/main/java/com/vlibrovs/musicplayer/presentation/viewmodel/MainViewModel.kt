@@ -2,50 +2,19 @@ package com.vlibrovs.musicplayer.presentation.viewmodel
 
 import androidx.compose.runtime.*
 import androidx.lifecycle.ViewModel
-import com.vlibrovs.musicplayer.data.model.Playlist
-import com.vlibrovs.musicplayer.data.model.Track
+import com.vlibrovs.musicplayer.data.model.Song
 
 class MainViewModel : ViewModel() {
-    private val _playlist = mutableStateListOf<Track>(
-        Track(
-            name = "Stressed Out",
-            authorName = "Twenty One Pilots",
-            imageUrl = null,
-            musicUrl = "",
-            secondsLong = 120
-        ),
-        Track(
-            name = "Shape of You",
-            authorName = "Ed Sheeran",
-            imageUrl = null,
-            musicUrl = "",
-            secondsLong = 120
-        ),
-        Track(
-            name = "Believer",
-            authorName = "Imagine Dragons",
-            imageUrl = null,
-            musicUrl = "",
-            secondsLong = 120
-        ),
-        Track(
-            name = "Demons",
-            authorName = "Imagine Dragons",
-            imageUrl = null,
-            musicUrl = "",
-            secondsLong = 120
-        )
-    )
+    private val _playlist = mutableStateListOf<Song>()
+    val playlist: List<Song> get() = _playlist
 
     var trackScreenVisible by mutableStateOf(false)
         private set
 
-    val playlist: Playlist get() = _playlist
-
     var bottomPlayerVisible by mutableStateOf(false)
         private set
 
-    var playingTrack by mutableStateOf<Track?>(null)
+    var playingTrack by mutableStateOf<Song?>(null)
         private set
 
     var playingTrackNumber by mutableStateOf<Int?>(null)
