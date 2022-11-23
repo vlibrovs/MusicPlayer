@@ -16,13 +16,11 @@ import androidx.compose.ui.layout.layoutId
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
-import androidx.navigation.NavController
 import com.vlibrovs.musicplayer.presentation.compose.widget.MusicListItem
 import com.vlibrovs.musicplayer.presentation.compose.widget.NullableAsyncImage
 import com.vlibrovs.musicplayer.presentation.compose.widget.PlayPauseButton
 import com.vlibrovs.musicplayer.presentation.viewmodel.MainViewModel
 import com.vlibrovs.musicplayer.util.extension.rememberConstraintSet
-import com.vlibrovs.musicplayer.util.values.ScreenRoutes
 
 @Composable
 fun MainScreen(
@@ -55,7 +53,7 @@ fun MainScreen(
         LazyColumn(modifier = Modifier.layoutId("lazyColumn")) {
             items(viewModel.playlist.size) { index ->
                 MusicListItem(
-                    track = viewModel.playlist[index],
+                    song = viewModel.playlist[index],
                     isPlaying = index == viewModel.playingTrackNumber
                 ) {
                     viewModel.playTrackByIndex(index)
@@ -94,7 +92,7 @@ fun MainScreen(
                                 color = MaterialTheme.colorScheme.secondary
                             ),
                         url = track.imageUrl,
-                        contentDescription = track.name
+                        contentDescription = track.title
                     )
 
                     Spacer(modifier = Modifier.width(30.dp))
@@ -104,12 +102,12 @@ fun MainScreen(
                         horizontalAlignment = Alignment.Start
                     ) {
                         Text(
-                            text = track.name,
+                            text = track.title,
                             style = MaterialTheme.typography.displayMedium,
                             color = MaterialTheme.colorScheme.primary
                         )
                         Text(
-                            text = track.authorName,
+                            text = track.artist,
                             style = MaterialTheme.typography.displaySmall,
                             color = MaterialTheme.colorScheme.secondary
                         )

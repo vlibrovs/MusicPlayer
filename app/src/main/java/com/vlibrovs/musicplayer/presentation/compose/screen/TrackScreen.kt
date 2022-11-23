@@ -11,6 +11,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
@@ -32,7 +33,8 @@ import kotlin.math.roundToInt
 fun TrackScreen(
     viewModel: MainViewModel
 ) {
-    viewModel.playingTrack?.let { track ->
+    viewModel.playingTrack?.let { song ->
+        val songLength = remember { 120 } // TODO Replace
         Column(
             modifier = Modifier
                 .fillMaxSize()
@@ -70,8 +72,8 @@ fun TrackScreen(
                     .padding(start = 30.dp, end = 30.dp, bottom = 30.dp)
                     .fillMaxWidth()
                     .aspectRatio(1f),
-                url = track.imageUrl,
-                contentDescription = track.name
+                url = song.imageUrl,
+                contentDescription = song.title
             )
             Column(
                 modifier = Modifier.fillMaxSize(),
@@ -86,14 +88,14 @@ fun TrackScreen(
                 ) {
                     Text(
                         modifier = Modifier.fillMaxWidth(),
-                        text = track.name,
+                        text = song.title,
                         style = MaterialTheme.typography.displayLarge,
                         color = MaterialTheme.colorScheme.onBackground,
                         textAlign = TextAlign.Center
                     )
                     Text(
                         modifier = Modifier.fillMaxWidth(),
-                        text = track.authorName,
+                        text = song.artist,
                         style = MaterialTheme.typography.displayMedium,
                         color = MaterialTheme.colorScheme.secondary,
                         textAlign = TextAlign.Center
@@ -124,13 +126,13 @@ fun TrackScreen(
                         horizontalArrangement = Arrangement.SpaceBetween
                     ) {
                         Text(
-                            text = formatMusicTime((track.secondsLong * viewModel.playerBarProgress).roundToInt()),
+                            text = formatMusicTime((songLength * viewModel.playerBarProgress).roundToInt()),
                             style = MaterialTheme.typography.displaySmall,
                             color = MaterialTheme.colorScheme.secondary,
                             textAlign = TextAlign.Start
                         )
                         Text(
-                            text = formatMusicTime(track.secondsLong),
+                            text = formatMusicTime(songLength),
                             style = MaterialTheme.typography.displaySmall,
                             color = MaterialTheme.colorScheme.secondary,
                             textAlign = TextAlign.End
