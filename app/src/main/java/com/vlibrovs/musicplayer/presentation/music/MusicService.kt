@@ -1,4 +1,4 @@
-package com.vlibrovs.musicplayer.presentation.service
+package com.vlibrovs.musicplayer.presentation.music
 
 import android.app.PendingIntent
 import android.os.Bundle
