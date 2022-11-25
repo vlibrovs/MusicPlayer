@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="703531af-27ed-4fcc-a33d-2827aa37c497" name="Changes" comment="MusicService.kt basic setup">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/vlibrovs/musicplayer/presentation/music/FirebaseMusicSource.kt" afterDir="false" />
+    <list default="true" id="703531af-27ed-4fcc-a33d-2827aa37c497" name="Changes" comment="Add FirebaseMusicSource.kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vlibrovs/musicplayer/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vlibrovs/musicplayer/di/AppModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vlibrovs/musicplayer/presentation/service/MusicService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vlibrovs/musicplayer/presentation/music/MusicService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vlibrovs/musicplayer/presentation/music/FirebaseMusicSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vlibrovs/musicplayer/presentation/music/FirebaseMusicSource.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669384217207</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add FirebaseMusicSource.kt">
+      <created>1669396911782</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669396911782</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +329,7 @@
     <MESSAGE value="Add TrackScreen.kt" />
     <MESSAGE value="Firebase setup" />
     <MESSAGE value="MusicService.kt basic setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="MusicService.kt basic setup" />
+    <MESSAGE value="Add FirebaseMusicSource.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FirebaseMusicSource.kt" />
   </component>
 </project>
